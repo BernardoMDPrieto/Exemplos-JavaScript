@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alterar um texto com o script na tag body</title>
+</head>
+<body>
+    <p id="demo">Esse texto será alterado assim que o usuário clicar no botão abaixo</p>
+    <button type="button" onclick="acao()">Clique-me</button>
+
+    <script>
+        function acao(){
+            document.getElementById('demo').innerHTML='O texto foi alterado'
+        }
+    </script>
+    
+</body>
+</html>
